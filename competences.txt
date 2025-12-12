@@ -1,0 +1,5 @@
+- HTML/CSS
+- JavaScript
+- Git & GitHub
+- Travail d'équipe
+- Communication

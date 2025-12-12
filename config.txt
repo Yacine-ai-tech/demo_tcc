@@ -1,0 +1,23 @@
+/* Nom complet */
+nom=Jean Dupont
+
+/* Titre professionnel */
+titre=Développeur Web
+
+/* Email de contact */
+email=jean.dupont@email.com
+
+/* Téléphone */
+telephone= 00227 ........
+
+/* Ville */
+ville=Niamey, Niger
+
+/* Couleur du thème (bleu, vert, rouge, violet) */
+couleur=bleu
+
+/* Afficher la section compétences (true/false) */
+afficher_competences=true
+
+/* Afficher la section formation (true/false) */
+afficher_formation=true
