@@ -3,3 +3,5 @@
 - Git & GitHub
 - Travail d'équipe
 - Communication
+- Analyse de donnees
+- ML

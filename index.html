@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV -  Seybou Siddo Yacine</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            box-shadow: 0 10px 50px rgba(0,0,0,0.3);
+            border-radius: 10px;
+            overflow: hidden;
+            animation: slideIn 0.5s ease-out;
+        }
+        
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .header {
+            background: #2c3e50;
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        
+        .header h2 {
+            font-size: 1.5em;
+            font-weight: 300;
+            opacity: 0.9;
+        }
+        
+        .contact {
+            background: rgba(255,255,255,0.1);
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 5px;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+        
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .content {
+            padding: 40px;
+        }
+        
+        .section {
+            margin-bottom: 35px;
+        }
+        
+        .section h3 {
+            color: #2c3e50;
+            font-size: 1.8em;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #2c3e50;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .competences {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+        }
+        
+        .competence-item {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #2c3e50;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .competence-item:hover {
+            transform: translateX(5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .formation-item, .experience-item {
+            background: #f8f9fa;
+            padding: 20px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #2c3e50;
+            line-height: 1.8;
+        }
+        
+        .experience-item ul {
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+        
+        .footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9em;
+        }
+        
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2em;
+            }
+            .contact {
+                flex-direction: column;
+                gap: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1> Seybou Siddo Yacine</h1>
+            <h2>AI Engineer</h2>
+            <div class="contact">
+                <div class="contact-item">
+                    <span>📧</span>
+                    <span>yseybou.aa@ilimi.edu.ne</span>
+                </div>
+                <div class="contact-item">
+                    <span>📱</span>
+                    <span> 00227 89165574</span>
+                </div>
+                <div class="contact-item">
+                    <span>📍</span>
+                    <span>Niamey, Niger</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="content">
+
+            <div class="section">
+                <h3>💼 Expérience Professionnelle</h3>
+
+                <div class="experience-item">
+                    Développeur Frontend | TechCorp | 2022-Present<br>- Développement d'applications web modernes<br>- Collaboration avec une équipe de 5 développeurs<br>- Optimisation des performances
+                </div>
+
+                <div class="experience-item">
+                    Stage Développeur | WebAgency | 2021<br>- Création de sites web responsives<br>- Maintenance de sites existants
+                </div>
+
+            </div>
+
+            <div class="section">
+                <h3>🎯 Compétences</h3>
+                <div class="competences">
+
+                    <div class="competence-item">
+                        - HTML/CSS
+                    </div>
+
+                    <div class="competence-item">
+                        - JavaScript
+                    </div>
+
+                    <div class="competence-item">
+                        - Git & GitHub
+                    </div>
+
+                    <div class="competence-item">
+                        - Travail d'équipe
+                    </div>
+
+                    <div class="competence-item">
+                        - Communication
+                    </div>
+
+                    <div class="competence-item">
+                        - Analyse de donnees
+                    </div>
+
+                    <div class="competence-item">
+                        - ML
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="section">
+                <h3>🎓 Formation</h3>
+
+                <div class="formation-item">
+                    Master en Informatique | Université de Paris | 2020-2022
+                </div>
+
+                <div class="formation-item">
+                    Licence en Informatique | Université de Lyon | 2017-2020
+                </div>
+
+            </div>
+
+        </div>
+        
+        <div class="footer">
+            <p>CV généré avec Git & GitHub 🚀 | Dernière mise à jour :  Seybou Siddo Yacine</p>
+        </div>
+    </div>
+</body>
+</html>

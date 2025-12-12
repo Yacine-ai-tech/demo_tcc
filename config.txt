@@ -1,14 +1,13 @@
 /* Nom complet */
-nom=Jean Dupont
-
+nom= Seybou Siddo Yacine
 /* Titre professionnel */
-titre=Développeur Web
+titre=AI Engineer
 
 /* Email de contact */
-email=jean.dupont@email.com
+email=yseybou.aa@ilimi.edu.ne
 
 /* Téléphone */
-telephone= 00227 ........
+telephone= 00227 89165574
 
 /* Ville */
 ville=Niamey, Niger
