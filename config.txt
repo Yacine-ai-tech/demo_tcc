@@ -13,7 +13,7 @@ telephone= 00227 89165574
 ville=Niamey, Niger
 
 /* Couleur du thème (bleu, vert, rouge, violet) */
-couleur=bleu
+couleur=rouge
 
 /* Afficher la section compétences (true/false) */
 afficher_competences=true
